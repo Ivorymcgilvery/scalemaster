@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale Master</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-image: url('background-music-theme.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        h1 {
+            margin-top: 50px;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 20px 0;
+        }
+
+        .game-description {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .game-features {
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+
+        .game-features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .game-features li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .cta {
+            margin-top: 40px;
+        }
+
+        .cta button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Scale Master</h1>
+
+    <div class="container">
+        <div class="game-description">
+            <p>"Scale Master" is a vocal exercise game designed to help players improve their vocal control, accuracy, and ability to stay within a musical scale. The game challenges players to navigate through various levels, each increasing in difficulty with more complex riffs, runs, and scale patterns.</p>
+            <p>The player must sing the correct notes within a scale to advance to the next level. If they jump out of the scale or hit a wrong note, they lose the chance to progress. Compete against your friends and see who masters the scales first!</p>
+        </div>
+
+        <div class="game-features">
+            <h2>Game Features:</h2>
+            <ul>
+                <li>🎤 Real-time voice recognition</li>
+                <li>🎶 Progressive levels with increasingly complex scale patterns</li>
+                <li>🎮 Multiplayer mode: Compete with friends from separate homes</li>
+                <li>📊 In-depth stats tracking your accuracy and improvement</li>
+                <li>🏆 Leaderboards to see who is the Scale Master</li>
+            </ul>
+        </div>
+
+        <div class="cta">
+            <button onclick="alert('Game Launch Coming Soon!')">Play Now</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Scale Master | Designed to improve your vocal game.
+    </footer>
+</body>
+</html>
